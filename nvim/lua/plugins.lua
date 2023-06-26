@@ -5,4 +5,5 @@ return require('packer').startup(function(use)
   -- colors
   use 'lifepillar/vim-solarized8'
   use 'sainnhe/gruvbox-material'
+  use { "catppuccin/nvim", as = "catppuccin" }
 end)
